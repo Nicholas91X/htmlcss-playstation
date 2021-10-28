@@ -3,6 +3,10 @@
     font-size: 0.5rem;
 }
 
+.fs_75 {
+    font-size: 0.75rem;
+}
+
 .my_rounded {
     border-radius: 0.75rem;
 }
