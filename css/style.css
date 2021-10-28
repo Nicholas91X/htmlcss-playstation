@@ -1,8 +1,26 @@
+/* commons */
+.fs_5 {
+    font-size: 0.5rem;
+}
+
+.my_rounded {
+    border-radius: 0.75rem;
+}
+
 /* header */
 /* header-top */
 
 #header-top {
     height: 30px;
+}
+
+/* jumbotron */
+#jumbotron {
+    height: 500px;
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
 }
 
 .debug #header-top {
