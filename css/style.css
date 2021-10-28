@@ -7,6 +7,23 @@
     border-radius: 0.75rem;
 }
 
+.my_w2 {
+    width: 2%;
+}
+
+.my_w8 {
+    width: 8%;
+}
+
+.my_w50 {
+    width: 50%;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
 /* header */
 /* header-top */
 
