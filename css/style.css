@@ -1,4 +1,8 @@
 /* commons */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 .fs_5 {
     font-size: 0.5rem;
 }
