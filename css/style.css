@@ -43,11 +43,20 @@ body {
     width: 60%;
 }
 
+/* buttons */
+
 .my_button {
     background-color: rgba(205,61,15,255);
     color: white;
     font-weight: 700;
     border-radius: 1rem;
+}
+
+.my_button:hover {
+    border: 1px solid white;
+    -webkit-box-shadow: inset 4px 4px 15px 0px #FFFFFF, 5px 5px 15px 5px rgba(255,255,255,0); 
+    box-shadow: inset 4px 4px 15px 0px #FFFFFF, 5px 5px 15px 5px rgba(255,255,255,0);
+    color: gold;
 }
 
 .my_button-2 {
@@ -78,6 +87,27 @@ body {
     border-radius: 1rem;
 }
 
+.my_button-2:hover,
+.my_button-3:hover {
+    border: 1px solid white;
+    -webkit-box-shadow: inset 4px 4px 15px 0px #FFFFFF, 5px 5px 15px 5px rgba(255,255,255,0); 
+    box-shadow: inset 4px 4px 15px 0px #FFFFFF, 5px 5px 15px 5px rgba(255,255,255,0);
+}
+
+
+.my_button-4:hover {
+    border: 1px solid black;
+    -webkit-box-shadow: inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(255,255,255,0); 
+    box-shadow: inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(255,255,255,0);
+}
+
+.my_button-5:hover {
+    transform: scale(1.1);
+    color: white;
+}
+
+/* text color */
+
 .my_color {
     background-color: rgba(190,188,187,255);
 }
@@ -89,6 +119,20 @@ body {
 .my_color-3 {
     background-color: rgba(0,67,156,255);
 }
+
+.cards_active-2:active {
+    border: 2px solid blue;
+}
+
+.cards_active:hover {
+    transform: translate(0, -10%);
+    cursor: pointer;
+}
+
+.bb_hover:hover {
+    border-bottom: 2px solid lime;
+}
+
 
 footer a {
     color: white;
