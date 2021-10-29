@@ -1,0 +1,179 @@
+/* commons */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.my_maxh {
+    max-height: 150px;
+}
+
+.my_filter {
+    filter: brightness(1);
+}
+
+.fs_5 {
+    font-size: 0.5rem;
+}
+
+.fs_75 {
+    font-size: 1rem;
+}
+
+.my_rounded {
+    border-radius: 0.75rem;
+}
+
+.my_w20 {
+    width: 20px;
+}
+
+.my_w70 {
+    width: 70px;
+}
+
+.my_w2 {
+    width: 2%;
+}
+
+.my_w8 {
+    width: 8%;
+}
+
+.my_w60 {
+    width: 60%;
+}
+
+/* buttons */
+
+.my_button {
+    background-color: rgba(205,61,15,255);
+    color: white;
+    font-weight: 700;
+    border-radius: 1rem;
+}
+
+.my_button:hover {
+    border: 1px solid white;
+    -webkit-box-shadow: inset 4px 4px 15px 0px #FFFFFF, 5px 5px 15px 5px rgba(255,255,255,0); 
+    box-shadow: inset 4px 4px 15px 0px #FFFFFF, 5px 5px 15px 5px rgba(255,255,255,0);
+    color: gold;
+}
+
+.my_button-2 {
+    background-color: rgba(45,100,230,255);
+    color: white;
+    font-weight: 700;
+    border-radius: 1rem;
+}
+
+.my_button-3 {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: blue;
+    font-weight: 700;
+    border-radius: 1rem;
+}
+
+.my_button-4 {
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    border-radius: 1rem;
+}
+
+.my_button-5 {
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    border-radius: 1rem;
+}
+
+.my_button-2:hover,
+.my_button-3:hover {
+    border: 1px solid white;
+    -webkit-box-shadow: inset 4px 4px 15px 0px #FFFFFF, 5px 5px 15px 5px rgba(255,255,255,0); 
+    box-shadow: inset 4px 4px 15px 0px #FFFFFF, 5px 5px 15px 5px rgba(255,255,255,0);
+}
+
+
+.my_button-4:hover {
+    border: 1px solid black;
+    -webkit-box-shadow: inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(255,255,255,0); 
+    box-shadow: inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(255,255,255,0);
+}
+
+.my_button-5:hover {
+    transform: scale(1.1);
+    color: white;
+}
+
+/* text color */
+
+.my_color {
+    background-color: rgba(190,188,187,255);
+}
+
+.my_color-2 {
+    background-color: rgba(22,28,59,255);
+}
+
+.my_color-3 {
+    background-color: rgba(0,67,156,255);
+}
+
+.cards_active-2:active {
+    border: 2px solid blue;
+}
+
+.cards_active:hover {
+    transform: translate(0, -10%);
+    cursor: pointer;
+}
+
+.bb_hover:hover {
+    border-bottom: 2px solid lime;
+}
+
+
+/* header */
+/* header-top */
+
+#header-top {
+    height: 30px;
+    background-color: black;
+}
+
+/* jumbotron */
+#jumbotron {
+    height: 500px;
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
+#jumbo-2 {
+    height: 550px;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
+/* footer */
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* .debug #header-top {
+    background-color: aqua;
+}
+
+.debug #header-top h3 {
+    background-color: black;
+}
+
+.debug #header-bottom {
+    background-color: blue;
+} */
