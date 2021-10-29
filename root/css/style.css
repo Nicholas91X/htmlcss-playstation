@@ -134,11 +134,6 @@ body {
 }
 
 
-footer a {
-    color: white;
-    text-decoration: none;
-}
-
 /* header */
 /* header-top */
 
@@ -163,6 +158,13 @@ footer a {
     background-position: 50%;
     background-repeat: no-repeat;
 }
+
+/* footer */
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
 
 /* .debug #header-top {
     background-color: aqua;
