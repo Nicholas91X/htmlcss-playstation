@@ -3,6 +3,22 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.my_w10 {
+    width: 10%;
+}
+
+.my_w50 {
+    width: 50%;
+}
+
+.my_pr {
+    padding-right: 1rem;
+}
+
+.my_pr-2 {
+    padding-right: 2rem;
+}
+
 .my_mw20 {
     max-width: 20px;
 }
@@ -46,6 +62,135 @@ body {
 .my_w60 {
     width: 60%;
 }
+/* header */
+.header-top {
+    display: flex;
+    justify-content: end;
+    background-color: black;
+    padding-right: 10px;
+}
+
+.header-img {
+    width: 60px;
+}
+
+header {
+    height: 50px;
+    position: relative;
+    border-bottom: 1px solid black;
+}
+
+nav.sinistra {
+    width: 65%;
+    height: 100%;
+    line-height: 50px;
+    font-size: .9rem;
+}
+
+nav.destra {
+    width: 35%;
+    height: 100%;
+    line-height: 50px;
+    font-size: .9rem;
+}
+
+
+ul {
+    list-style: none;
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.my_dropdown {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+}
+
+.my_dropdown ul {
+    border-bottom: 1px solid black;
+}
+
+
+.my_burgler {
+    align-self: center;
+    width: 3%;
+    margin-right: 10px;
+}
+
+.my_menu_hidden {
+    width: 50%;
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+}
+
+.my_menu_hidden li {
+    border-bottom: 1px solid black;
+    padding-left: 1rem;
+}
+
+.my_menu_hidden ul {
+    padding-left: 0;
+    background-color: white;
+}
+
+.my_sub {
+    display: none;
+}
+
+.my_menu_hidden ul li:hover .my_sub {
+    display: inline-block;
+}
+
+div.my_burgler:hover .my_menu_hidden {
+    display: block;
+}
+
+.my_img_container {
+    height: 1rem;
+    width: 1rem;
+    position: relative;
+}
+
+.chevron {
+    width: 15px;
+    height: 15px;
+    position: relative;
+}
+
+.my_classic,
+.my_hover,
+.lens {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.my_hover{
+    display: none;
+}
+
+
+li:hover .my_dropdown {
+    display: inline-block;
+}
+
+li:hover .my_classic {
+    display: none;
+}
+
+li:hover .my_hover {
+    display: inline-block;
+}
+/* / header */
 
 /* buttons */
 
@@ -135,15 +280,6 @@ body {
 
 .bb_hover:hover {
     border-bottom: 2px solid lime;
-}
-
-
-/* header */
-/* header-top */
-
-#header-top {
-    height: 30px;
-    background-color: black;
 }
 
 /* jumbotron */
